@@ -1,8 +1,7 @@
-![Screenshot of Nuxt Minimal Starter](1.png)
-![Screenshot of Nuxt Minimal Starter](2.png)
-![Screenshot of Nuxt Minimal Starter](3.png)
-![Screenshot of Nuxt Minimal Starter](4.png)
-![Screenshot of Nuxt Minimal Starter](5.png)
+1   | 2  | 3
+:-------------------------:|:-------------------------: |:-------------------------: 
+![](1.png)  |  ![](2.png)   | ![](3.png)
+![](4.png)   | ![](5.png)
 
 
 
