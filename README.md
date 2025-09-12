@@ -1,3 +1,11 @@
+![Screenshot of Nuxt Minimal Starter](1.png)
+![Screenshot of Nuxt Minimal Starter](2.png)
+![Screenshot of Nuxt Minimal Starter](3.png)
+![Screenshot of Nuxt Minimal Starter](4.png)
+![Screenshot of Nuxt Minimal Starter](5.png)
+
+
+
 # Nuxt Minimal Starter
 
 Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.

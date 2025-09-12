@@ -11,7 +11,7 @@
                     @click="setActiveTab(tab.value)" href="#"
                 >
                     
-                    <p class="text-sm font-semibold whitespace-nowrap">{{ tab.label }}</p>
+                    <p class="text-sm font-semibold" :class="activeTab === tab.value ? 'text-[var(--primary-color)]' : ''">{{ tab.label }}</p>
                 </a>
             </template>
         </div>
