@@ -1,5 +1,8 @@
 <template>
-    <slot />
+    <div class="mb-14">
+        <slot />
+    </div>
+    
 
     <footer class="bg-white border-t border-gray-200 p-2 fixed bottom-0 w-full">
         <div class="flex justify-around">

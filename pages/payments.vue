@@ -47,7 +47,7 @@
                     </div>
                 </div>
             </div>
-            <div class="sticky bottom-0 bg-white/80 pb-5 pt-3 mb-14">
+            <div class="sticky bottom-0 bg-white/80 pb-5 pt-3">
                 <div class="flex justify-center px-5">
                     <button
                         class="flex h-14 w-full max-w-sm items-center justify-center gap-x-2 rounded-full bg-slate-900 text-white shadow-lg hover:bg-slate-800">

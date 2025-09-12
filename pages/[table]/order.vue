@@ -1,6 +1,6 @@
 <template>
 
-    <body class="bg-gray-50">
+    <body class="bg-gray-50 ">
         <div class="relative flex size-full min-h-screen flex-col justify-between group/design-root overflow-x-hidden">
             <div class="flex-grow">
                 <header class="sticky top-0 bg-white/80 backdrop-blur-md z-10">
@@ -19,7 +19,7 @@
                     </div>
                 </header>
                 <main class="divide-y divide-gray-100">
-                    <div class="flex items-center gap-4 bg-white p-4">
+                    <div v-for="product in products" class="flex items-center gap-4 bg-white p-4">
                         <div class="bg-center bg-no-repeat aspect-square bg-cover rounded-lg size-16 shrink-0"
                             style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuD2izuNeImFgXDpvriROop_A47zkLKXzTxX-xb_C_fHsDDi-jyLNHGeBq47W2jW85cJlLVaNGlYUkDCoACyt9dSzc0MBDtqaTlYA89wq6V6-CaY9Ir0fC3E9qXF99oAIluCrOQZBAQVptZCyV9JKyi0-veTooFtogTpECRa10uO_wOXmFxXxk3C47mr3JojG2AwMNiCncpa4Qs6ZYJmgHRYjScFz5o-ZBC0D4s60ZjgyJX_YfGEs3Xn0BPw1fvSUv5M6dPXm0T1CA");'>
                         </div>
@@ -73,7 +73,7 @@
                     </div>
                 </main>
             </div>
-            <footer class="sticky bottom-0 bg-white/80 backdrop-blur-md border-t border-gray-200">
+            <footer class=" bg-white/80 backdrop-blur-md border-t border-gray-200">
                 <div class="flex justify-between items-center gap-3 p-4">
                     <button
                         class="flex items-center justify-center gap-2 rounded-lg h-12 px-4 bg-gray-100 text-gray-800 text-sm font-bold hover:bg-gray-200 transition-colors">
@@ -104,4 +104,12 @@ const tabs = [
     { label: "Info", value: "info", icon: "info" },
 ]
 
+
+const products = ref([
+    { id: 1, name: "Crispy Calamari", price: 12.99, image: "https://lh3.googleusercontent.com/aida-public/AB6AXuDGF8cDqL-isb1WNCda6njfrGBJ7lKDo2zv1MX1EcONPV99aKb6QxGG6D2qm8KYW_KkNYQjvCo68J1V3XPdBXG6haVVH8SwkwXrOAb-UCbyP1obHpesX7qollXGTO6oZ0oyaGnx9x0PxWo6j6axqKmxXGZvM9Fibm5kfQBfNPWUvdAVAXBfvAdGHk4tRn1GNksUsretClOVeZEXk7mFTaJqZ-E4Qetc3pcxQOQcik_Ml0Jxqi3EV32Rrf1MvaFPfcZ8k4KskjcJaw" },
+    { id: 2, name: "Bruschetta", price: 9.99, image: "https://lh3.googleusercontent.com/aida-public/AB6AXuCPx5FJeSh-D-JfhLJhtdY3gxRrssKwr32UpP7FWwOQpdukQYKPbDGrVI17ckjzayoV-9-Wb8EXrBPFNhNaUxBZIHyxj9Uj2qY4G6sr_X6qJ29mpKSibtdEsWjYSWzYuH8RXJyvyHPkx12J4TYzeHWFGHi2SXWUPdcJwv56G2KYl6Vi5HQDugQ44nXQc5gwUcrl4pnDNxUITizCxYKYxyprsNm3Nkik3f8-LDwOA1VZD0wf5YK1MNWvswajgh4W-0c62_lbRqMLFQ" },
+    { id: 3, name: "Shrimp Scampi", price: 14.99, image: "https://lh3.googleusercontent.com/aida-public/AB6AXuBFSnfdei_3TviFoKPjju0B-VaIvUqJaz-SQJLG9RPbi5dKV50r8XyW5_6_T7qVdfuhTzMOFPl2CJ-EdoCx5rxIdDgmcBNUuB0IFLa8iVKwwGuMYRdLJ9gf9otRzxCHim9eHJghi6GPhOloefjhUm5l6Fv_YiTwphrJ0aN7ciBJf9pnmhEIG4ksr7Q2KD5YxiaTwn68ieVJ9_IST4siDEk3yLK4wUVVhe48yV-szggrtYMd1yffyxdI9iU8JV_W5HCN8HpOmlkJ2A" },
+    { id: 4, name: "Caprese Salad", price: 11.99, image: "https://lh3.googleusercontent.com/aida-public/AB6AXuBUZjn8JClIm8Uc7_KLvapEeJN5Z6R2k5FT8jMeM_X58Hy_J3Sc3JxcNxbHKv7n-ywDVTdG6dqP5tJDUSS7Ppwipa1NxHpgpunFddNg-mPi3nWgkVNoT1ehGQVjbFKFFKb-8fgyB_a4MbHtgnDzUL7vpoMi0iYx8g0ahJLwdi1-hb7CBcovXADzyazdAN4KVHybx3SkVxOy" }
+
+])
 </script>

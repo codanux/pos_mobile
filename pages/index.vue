@@ -21,7 +21,7 @@
                 </div>
                 <TabBar v-model="tab" :tabs="tabs" />
             </header>
-            <main class="flex-grow p-4 mb-16">
+            <main class="flex-grow p-4">
                 <div class="grid grid-cols-2 gap-4">
                     <div v-for="i in 20" @click="$router.push({ name: 'table-order', params: { table: i }})" class="relative group cursor-pointer">
                         <div
